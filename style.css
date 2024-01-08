@@ -1,0 +1,104 @@
+/* UTILITY CLASSES */
+.container-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-height { height: 100vh; }
+.hide { display: none !important; }
+.cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.p-05 { padding: 0.5rem; }
+.p-10 { padding: 1rem; }
+.p-20 { padding: 2rem; }
+.p-30 { padding: 3rem; }
+.m-05 { margin: 0.5rem; }
+.m-10 { margin: 1rem; }
+.m-20 { margin: 2rem; }
+.m-30 { margin: 3rem; }
+.mlr-auto { margin-left: auto; margin-right: auto; }
+
+/* GENERAL STYLES */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  width: 10rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+button:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+button[disabled] {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Estilos para el tablero del juego */
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid gray;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.flipped {
+  background-color: blue;
+  color: white;
+}
+
+.matched {
+  background-color: green;
+  color: white;
+}
+
+.valid-input { background-color: #8fd08f; }
+.invalid-input { background-color: #ff8d8d; }
+
+.highlight {
+  background-color: yellow;
+}

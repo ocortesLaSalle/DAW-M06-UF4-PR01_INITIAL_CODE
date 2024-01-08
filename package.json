@@ -1,0 +1,26 @@
+{
+  "name": "poke-memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "lint": "eslint ./js/**.js ; eslint ./js/*/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaSalleGracia-Templates/M06-UF3-4-PR01_FINAL_CODE.git"
+  },
+  "author": "Oriol Cortes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaSalleGracia-Templates/M06-UF3-4-PR01_FINAL_CODE/issues"
+  },
+  "homepage": "https://github.com/LaSalleGracia-Templates/M06-UF3-4-PR01_FINAL_CODE#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
