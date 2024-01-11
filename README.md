@@ -8,7 +8,7 @@ Repositori del codi inicial de la pràctica 1 del M06-UF4
 # **Instruccions de comandes de testing**
 Hi han 2 comandes programades en aquest projecte:
 - *npm run lint*: Executa ESLint per tots els fitxers amb extensió ".js" que estiguin dins de la carpeta "js" i també els que estiguin a un nivell de carpetes inferior.
-- *npm run test*: Executa uns tests end-to-end amb l'eina "Cypress", preparats per comprovar si el funcionament general de l'aplicació és correcte. Els tests només són una ajuda, en cap cas passar els tests suposarà l'aprovat.
+- *npm run test:e2e*: Executa uns tests end-to-end amb l'eina "Cypress", preparats per comprovar si el funcionament general de l'aplicació és correcte.
 
 # **Enunciat**
 ## **LS PokeMemory**
@@ -29,6 +29,7 @@ Quan l'usuari cliqui al botó de submit del formulari s'haurà de:
   1. Utilitzant l'API i la BBDD "Realtime DB" que ofereix l'aplicació de Firebase (fent servir el mètode "fetch", no la llibreria de Firebase) cal comprovar si el email existeix a la BBDD.
      - Si existeix, s'ha de sobreescriure el username.
      - Si no existeix, s'ha d'afegir un nou registre.
+     - La URL per fer la petició serà la unió de la "URL de la vostra BBDD" + / + "nom de la col·lecció" + .json
   2. L'id d'usuari que retorni l'API s'haurà de guardar al sessionStorage amb la clau "*user*".
 
 #### **Joc**
