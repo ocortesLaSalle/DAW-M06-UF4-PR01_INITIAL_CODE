@@ -1,11 +1,9 @@
-# **DAW-M06-UF3-4-PR01_INITIAL_CODE**
-Repositori del codi inicial de la pràctica 1 del M06-UF3 i 4 (JS bàsic)
+# **DAW-M06-UF4-PR01_INITIAL_CODE**
+Repositori del codi inicial de la pràctica 1 del M06-UF4
 
 # **Instruccions**
-- És necessari superar una entrevista o presentació de la pràctica mostrant el correcte funcionament de l'aplicació per poder obtenir una nota.
+- Si el professor ho considera convenient serà necessari superar una entrevista o presentació de la pràctica mostrant el correcte funcionament de l'aplicació per poder obtenir una nota.
 - L'entrega es realitzarà utilitzant 2 plataformes: Sallenet i Github. És obligatoria l'entrega dins del termini a les dues per poder obtenir una nota.
-- És obligatori que hi hagi mínim 4 commits en el repositori (un commit per classe).
-- La pràctica es realitzarà en parelles cada parella ha de fer un mínim de 2 commits.
 
 # **Instruccions de comandes de testing**
 Hi han 2 comandes programades en aquest projecte:
@@ -69,8 +67,8 @@ La vista del joc consistirà en 3 parts, totes 3 dins d'un contenidor amb id "*g
 - Files: *(1p)* *Distribueix correctament el codi en diferents fitxers i fes servir imports i exports.
   - L'anterior puntuació només s'obtindrà si s'arriba a una nota de 4 a la pràctica amb les puntuacions de les features.
 - Code Quality: *-0,25p* Per cada error de HTMLHint i ESLint.
-- Styles: *(1p)* **Estils en CSS propis.
-- Github: *(1p)* **Seguiment fent servir GitHub amb branques una per cada feature (amb merge al main quan estiguin acabades) i mínim un commit per classe (amb suficient feina feta).
+- Styles: *(1p)* **Estils: Cal que hi hagi suficient codi CSS per a que es pugui valorar.
+- Github: *(1p)* **Seguiment fent servir GitHub amb branques una per cada feature (amb merge al main quan estiguin acabades) i mínim un commit per classe (amb suficient feina feta), els noms de les branques i dels commits han de seguir la convenció i tenir sentit.
   - **Les dues anteriors puntuacions, només s'obtindran si s'aprova la pràctica amb la resta de les puntuacions.
 
 
