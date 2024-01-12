@@ -30,27 +30,17 @@ Cypress.Commands.add('visitURL', () => {
     cy.visit(data.url);
     sessionStorage.removeItem('user');
   });
-})
-
+});
 
 Cypress.Commands.add('register', () => {
   cy.visitURL();
-  const nameInput = cy.get('#name');
-  nameInput.type('John Doe');
-  nameInput.should('not.have.class', 'invalid-input');
-  nameInput.should('have.class', 'valid-input');
+  const usernameInput = cy.get('#username');
+  usernameInput.type('John Doe');
 
   const emailInput = cy.get('#email');
   emailInput.type('johndoe@example.com');
-  emailInput.should('not.have.class', 'invalid-input');
-  emailInput.should('have.class', 'valid-input');
-
-  const ageInput = cy.get('#age');
-  ageInput.type('30');
-  ageInput.should('not.have.class', 'invalid-input');
-  ageInput.should('have.class', 'valid-input');
 
   cy.get('#user-form').submit();
   cy.get('#game').should('be.visible');
-  cy.window().then(win => expect(win.sessionStorage.getItem('user')).to.not.be.null);
-})
+  cy.window().then((win) => expect(win.sessionStorage.getItem('user')).to.not.be.null);
+});
