@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 /* eslint-disable no-undef */
 describe('Game play', () => {
   beforeEach(() => {
@@ -49,7 +50,7 @@ describe('Game play', () => {
         if (dataIdFirst !== dataIdLast) {
           differentCard = cards.get(`[data-id="${dataIdLast}"]`).last();
         } else {
-          differentCard = cards.get(`[data-id]:nth-child(2)`);
+          differentCard = cards.get('[data-id]:nth-child(2)');
         }
         differentCard.click();
         differentCard.should('not.have.class', 'matched');
